@@ -12,7 +12,7 @@ app.get("/proxy", async (req, res) => {
   if (!imageUrl) return res.status(400).send("Url is required");
   try {
     const response = await axios.get(imageUrl, { responseType: "arraybuffer" });
-    const contentType = response.headers["content-Type"];
+    const contentType = response.headers["content-type"];
     res.setHeader("Content-Type", contentType);
     res.send(response.data);
   } catch (error) {
