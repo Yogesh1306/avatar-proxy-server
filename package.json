@@ -1,0 +1,25 @@
+{
+  "name": "avatar-image-proxy-server",
+  "version": "1.0.0",
+  "description": "A proxy server to download avatar image",
+  "keywords": [
+    "proxy",
+    "avatar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "\""
+  },
+  "license": "MIT",
+  "author": "Yogesh Joshi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
